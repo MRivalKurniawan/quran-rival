@@ -4,7 +4,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="../components/Logo_Quran-removebg-preview.png" alt="" width="30" height="24" class="d-inline-block align-text-top" />
-        lugasss
+        Al- Qur'an Digital
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -12,13 +12,13 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <router-link :to="{ name: 'page.home' }" class="nav-link" href="#Home">Home</router-link>
+            <router-link :to="{ name: 'page.home' }" class="nav-link" href="#Home">Home Qur'an</router-link>
           </li>
           <li class="nav-item">
-            <router-link :to="{ name: 'page.about' }" class="nav-link" href="#about">About Me</router-link>
+            <router-link :to="{ name: 'page.about' }" class="nav-link" href="#about">About Qur'an</router-link>
           </li>
           <li class="nav-item">
-            <router-link :to="{ name: 'page.contact' }" class="nav-link active" aria-current="page" href="#contact">Contact Me</router-link>
+            <router-link :to="{ name: 'page.contact' }" class="nav-link active" aria-current="page" href="#contact">Contact Author</router-link>
           </li>
         </ul>
       </div>
@@ -42,7 +42,7 @@
       </div>
       <div class="row justify-content-center fs-5 text-center">
         <div class="col-md-4 fs-6">
-          <p>"Pesan yang anda berikan akan segera dibalas oleh admin tercinta."</p>
+          <p>"Terima Kasih Kepada Audiens Yang Sudah Memberikan Pesan Atau Sarannya Kepada Author, Agar Bisa Menjadi Yang Lebih Baik Lagi Dan Semakin Semangat Dalam Menjalankan Berbagai Project."</p>
         </div>
       </div>
     </div>
@@ -50,8 +50,8 @@
   <!-- Akhir About-->
 
   <!-- Footer -->
-  <footer class="text-dark text-center" style="background-color: #57f0d9">
-    <p>Created by <a href="https://www.instagram.com/lugaspasiolo_/" class="text-dark fw-bold">Lugas Pasiolo</a></p>
+  <footer class="text-dark text-center fixed-bottom " style="background-color: #57f0d9">
+    <p>Created by <a href="https://www.instagram.com/m.rival_kurniawan/" class="text-dark fw-bold">M. Rival Kurniawan</a></p>
   </footer>
   <!-- Akhir Footer -->
 </template>
